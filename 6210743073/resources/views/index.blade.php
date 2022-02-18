@@ -1,19 +1,21 @@
 @extends('layouts.app')
 @section('content')
-    <div class="background-image grid grid-cols-1 m-auto">
-        <div class="flex text-gray-100 pt-10">
-            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
-                <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">โดยที่การไม่นำพาและการหมิ่นในคุณค่าของสิทธิมนุษยชน</h1>
-                <a href="/blog" class="text-center py-2 px-4 rounded-full bg-gray-50 text-gray-700 font-bold text-xl uppercase">อ่านต่อ</a>
+
+
+<section class="bg-gray-100 dark:bg-gray-900 lg:py-12 lg:flex lg:justify-center">
+    <div class="bg-white dark:bg-gray-800 lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg lg:rounded-lg">
+        <div class="lg:w-1/2">
+            <div class="h-64 bg-cover lg:rounded-lg lg:h-full" style="background-image:url('https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80')"></div>
+        </div>
+
+        <div class="max-w-xl px-6 py-12 lg:max-w-5xl lg:w-1/2">
+            <h2 class="text-2xl font-bold text-gray-800 dark:text-white md:text-3xl">Build Your New <span class="text-blue-600 dark:text-blue-400">Idea</span></h2>
+            <p class="mt-4 text-gray-600 dark:text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem modi reprehenderit vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.</p>
+
+            <div class="mt-8">
+                <a href="#" class="px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700">Start Now</a>
             </div>
         </div>
     </div>
-    <div class="sm:grid grid-cols-2 gap-20 w-25 mx-auto py-15 border-b border-gray-200 over">
-        <div>
-            <img src="https://images.unsplash.com/photo-1601342630314-8427c38bf5e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=391&q=80" alt="" width="700"/>
-        </div>
-        <div>
-
-        </div>
-    </div>
-@endsection 
+</section>
+@endsection

@@ -17,38 +17,45 @@
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
 
-<body class="bg-gray-100 h-screen antialiased leading-none font-sans">
+<body class="relative bg-white">
     <div id="app">
-        <header class="bg-gray-800 py-6">
+        <header class="bg-grey-500 py-6 ">
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
-                    <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-100 no-underline">
-                        {{ config('app.name', 'Laravel') }}
+                    <a href="/">
+                        <span class="sr-only">Workflow</span>
+                        <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg">
                     </a>
                 </div>
                 <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
-                    <a class="no-underline hover:underline" href="/">Home</a>
-                    <a class="no-underline hover:underline" href="/blog">Blog</a>
+                    <a class="font-medium text-gray-500 hover:text-gray-900" href="/">Home</a>
+                    <a class="font-medium text-gray-500 hover:text-gray-900" href="/blog">Blog</a>
                     @guest
-                    <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
+                    <a class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700" href="{{ route('login') }}">{{ __('Login') }}</a>
                     @if (Route::has('register'))
-                    <a class="no-underline hover:underline" href="{{ route('register') }}">{{ __('Register') }}</a>
+                    <a class="font-medium text-gray-500 hover:text-gray-900" href="{{ route('register') }}">{{ __('Register') }}</a>
                     @endif
                     @else
                     <span>{{ Auth::user()->name }}</span>
 
-                    <a href="{{ route('logout') }}" class="no-underline hover:underline" onclick="event.preventDefault();
+                    <a href="{{ route('logout') }}" class="font-medium text-gray-500 hover:text-gray-900" onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
                         {{ csrf_field() }}
                     </form>
                     @endguest
+
                 </nav>
             </div>
         </header>
-
+        <div>
+            @include('layouts.Herosection')
+        </div>
         <div>
             @yield('content')
+        </div>
+        <div>
+            @include('layouts.Timeline')
         </div>
         <div>
             @include('layouts.footer')
