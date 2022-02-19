@@ -7490,7 +7490,7 @@ textarea.form-control-lg {
 }
 
 .mt-2 {
-  margin-top: 0.5rem !important;
+  margin-top: 1.5rem !important;
 }
 
 .mt-3 {
@@ -7963,7 +7963,7 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .text-reset {
@@ -11577,7 +11577,7 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
@@ -11598,13 +11598,13 @@ body {
     padding: 0;
   }
   .masthead h1, .masthead .h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
+    font-size: 6rem;
+    line-height: 6.9rem;
     letter-spacing: 0.8rem;
   }
   .masthead h2, .masthead .h2 {
     max-width: 30rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 }
 
