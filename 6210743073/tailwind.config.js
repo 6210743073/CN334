@@ -1,3 +1,4 @@
+
 module.exports = {
   purge: [
     './resources/views/**/*.blade.php',
@@ -5,8 +6,8 @@ module.exports = {
   ],
   theme: {
     extend: {}
-  },
-  variants: {},
+  }
+variants: {},
   plugins: [
     require('@tailwindcss/ui'),
   ]
