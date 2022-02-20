@@ -44,6 +44,6 @@ class User extends Authenticatable
 
     public function post()
     {
-        return $this->hasMany(Portfolio::class);
+        return $this->hasMany(Backend::class);
     }
 }
