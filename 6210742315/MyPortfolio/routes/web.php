@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BackendController;
+use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\Auth\LoginController;
 
 /*
@@ -15,11 +16,10 @@ use App\Http\Controllers\Auth\LoginController;
 |
 */
 
-Route::get('/', function () {
-    return view('portfolio');
-});
+Route::get('/', [PortfolioController::class, 'index']);
 Auth::routes();
 
 Route::get('/backend', [BackendController::class, 'index']);
+Route::post('/backend', [BackendController::class, 'edit']);
 
 Route::get('logout', [LoginController::class,'logout']);

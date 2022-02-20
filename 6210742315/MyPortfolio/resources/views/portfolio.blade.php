@@ -39,7 +39,7 @@
                 <div class="d-flex justify-content-center">
                     <div class="text-left">
                         <h1 class="mx-auto my-0">Pwat <br>Pongsukwejkul</h1>
-                        <h2 class="text-white-50 mt-2 mb-5">Hello, my name is Pwat Pongsukwejkul <br>I'm a Software Engineering Student</h2>
+                        <h2 class="text-white-50 mt-2 mb-5">{{$portfolio[0]->description}}</h2>
                         <a class="btn btn-primary" href="#about">Learn about me</a>
                     </div>
                 </div>
