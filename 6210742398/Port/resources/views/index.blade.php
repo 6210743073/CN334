@@ -26,7 +26,7 @@
             </p>
 
             <p class="font-extrabold text-gray-600 text-s pb-9">
-                Let's find out what's my Portfolio.
+                Let's find out what's in my Portfolio.
             </p>
 
             <a 
@@ -46,13 +46,13 @@
             Gaming
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Puzzle
+            Gacha-ing
         </span>
         <span class="font-extrabold block text-4xl py-1">
             Document Creation
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Gunpla Colloctor
+            Testing software stuff
         </span>
     </div>
 
