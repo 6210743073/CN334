@@ -5,13 +5,8 @@
         <div class="flex text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
                 <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
-                    Do you want to become a developer?
+                    Welcome to my Portfolio Website
                 </h1>
-                <a 
-                    href="/blog"
-                    class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
-                    Read More
-                </a>
             </div>
         </div>
     </div>
@@ -27,17 +22,17 @@
             </h2>
             
             <p class="py-8 text-gray-500 text-s">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus.
+                This is my current Portfolio.
             </p>
 
             <p class="font-extrabold text-gray-600 text-s pb-9">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente magnam vero nostrum! Perferendis eos molestias porro vero. Vel alias.
+                Let's find out what's my Portfolio.
             </p>
 
             <a 
                 href="/blog"
                 class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
-                Find Out More
+                Find Out
             </a>
         </div>
     </div>
@@ -48,30 +43,30 @@
         </h2>
 
         <span class="font-extrabold block text-4xl py-1">
-            Ux Design
+            Gaming
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Project Management
+            Puzzle
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Digital Strategy
+            Document Creation
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Backend Development
+            Gunpla Colloctor
         </span>
     </div>
 
     <div class="text-center py-15">
         <span class="uppercase text-s text-gray-400">
-            Blog
+            Blank for decorate in the future
         </span>
 
         <h2 class="text-4xl font-bold py-10">
-            Recent Posts
+            Blank for decorate in the future.....
         </h2>
 
         <p class="m-auto w-4/5 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
+            Comment for decorate in the future.....
         </p>
     </div>
 
@@ -79,11 +74,11 @@
         <div class="flex bg-yellow-700 text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
                 <span class="uppercase text-xs">
-                    PHP
+                    BLANK
                 </span>
 
                 <h3 class="text-xl font-bold py-10">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
+                    Blank for decorate in the future
                 </h3>
 
                 <a 
