@@ -13,9 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('backend', function (Blueprint $table) {
-            $table->increments('id');
-            $table->longText('description');
+        Schema::create('backends', function (Blueprint $table) {
+            $table->id();
+            $table->string('description');
+            $table->timestamps();
         });
     }
 
@@ -26,6 +27,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('backend');
+        Schema::dropIfExists('backends');
     }
 };
