@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BackendController;
+use App\Http\Controllers\Auth\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +19,7 @@ Route::get('/', function () {
     return view('portfolio');
 });
 Auth::routes();
+
+Route::get('/backend', [BackendController::class, 'index']);
+
+Route::get('logout', [LoginController::class,'logout']);
