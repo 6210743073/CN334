@@ -1,7 +1,7 @@
-<div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+<div class=" px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
   <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-5">
     <div class="grid gap-6 md:grid-cols-2 md:col-span-2 lg:col-span-3">
-      <div class="rounded lg:p-5 lg:transition lg:duration-300 lg:hover:bg-indigo-50">
+      <div class="p-3 bg-red-50 rounded lg:p-5 lg:transition lg:duration-300 lg:hover:bg-red-100">
         <div class="flex items-center mb-1">
           <span class="flex items-center justify-center w-4 h-4 mr-2 text-xs font-medium text-white rounded bg-deep-purple-accent-400">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="black">
@@ -13,7 +13,7 @@
           Create a website to help solve the problem of water dispensers that the faculty has broken or needs maintenance by allowing students in the faculty to report on the website. ”ตู้นํ้าที่ดี“is a project from the faculty at the university. It is run by 4 members. I take care of the whole web development part. It took 5 weeks to develop. It was the first project that made me develop a website.
         </p>
       </div>
-      <div class="rounded lg:p-5 lg:transition lg:duration-300 lg:hover:bg-teal-50">
+      <div class="p-3 bg-yellow-50 rounded lg:p-5 lg:transition lg:duration-300 lg:hover:bg-yellow-100">
         <div class="flex items-center mb-1">
           <span class="flex items-center justify-center w-4 h-4 mr-2 text-xs font-medium text-teal-900 rounded bg-teal-accent-400">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="black">
@@ -26,7 +26,7 @@
           Build a website to support people who lost their jobs due to the Covid situation with the "Job findder" website, a website that will serve as an intermediary for people looking for jobs or people who want to hire to post what they want. It is a project from the faculty at the university which is run by 2 members. I take care of the whole web development part. The creation time is 13 weeks. It's a big project that needs to be done the whole semester as full-stack development
         </p>
       </div>
-      <div class="rounded lg:p-5 lg:transition lg:duration-300 lg:hover:bg-teal-50">
+      <div class="p-3 bg-green-50 rounded lg:p-5 lg:transition lg:duration-300 lg:hover:bg-green-100">
         <div class="flex items-center mb-1">
           <span class="flex items-center justify-center w-4 h-4 mr-2 text-xs font-medium text-white rounded md:text-teal-900 bg-deep-purple-accent-400 md:bg-teal-accent-400">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="black">
@@ -41,7 +41,7 @@
           Experience making mobile apps on android with React native.
         </p>
       </div>
-      <div class="rounded lg:p-5 lg:transition lg:duration-300 lg:hover:bg-indigo-50">
+      <div class="p-3 bg-blue-50 rounded lg:p-5 lg:transition lg:duration-300 lg:hover:bg-blue-100">
         <div class="flex items-center mb-1">
           <span class="flex items-center justify-center w-4 h-4 mr-2 text-xs font-medium text-teal-900 rounded md:text-white bg-teal-accent-400 md:bg-deep-purple-accent-400">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="black">
@@ -56,16 +56,16 @@
       </div>
     </div>
     <div class="relative md:col-span-2 lg:col-span-2">
-      <img class="inset-0 object-cover object-bottom w-full h-56 rounded shadow-lg lg:absolute lg:h-full" src="https://images.pexels.com/photos/3182759/pexels-photo-3182759.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="" />
+      <img class="inset-0 object-cover object-bottom w-full h-56 rounded shadow-lg lg:absolute lg:h-full" src="https://res.cloudinary.com/jobfindder/image/upload/v1645280918/rock_vbccda.png" alt="" />
     </div>
   </div>
 </div>
-<div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+<div class="bg-white px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
   <div class="grid gap-24 row-gap-8 lg:grid-cols-5">
     <div class="grid gap-8 lg:col-span-2">
       <div>
-        <p class="mb-2 text-xl font-bold">EDUCATION</p>
-        <p class="text-xl text-gray-700">
+        <p class="mb-2 text-purple-700 text-xl font-bold">EDUCATION</p>
+        <p class="text-xl text-black">
           Thammasat University
           สาขาวิศวกรรมซอฟต์แวร์(ปริญญาตรี โครงการพิเศษ)
           2019 -ปัจจุบัน
@@ -75,18 +75,18 @@
     <div class="grid border divide-y rounded lg:col-span-3 sm:grid-cols-2 sm:divide-y-0 sm:divide-x">
       <div class="flex flex-col justify-between p-10">
         <div>
-          <p class="text-xl font-semibold text-gray-800 sm:text-base">
+          <p class="text-xl font-bold text-black sm:text-base">
             LANGUAGE
           </p>
-          <p class="text-lg font-bold text-deep-purple-accent-400 sm:text-xl">
+          <p class="text-xl font-bold text-purple-700 sm:text-xl">
             English
           </p>
-        </div>     
+        </div>
       </div>
       <div class="flex flex-col justify-between p-10">
         <div>
           <p class="text-lg font-semibold text-gray-800 sm:text-base"><br></p>
-          <p class="text-2xl font-bold text-deep-purple-accent-400 sm:text-xl">
+          <p class="text-2xl font-bold text-black sm:text-xl">
             intermediate
           </p>
         </div>

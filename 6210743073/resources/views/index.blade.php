@@ -4,10 +4,10 @@
 
 @include('layouts.Herosection')
 @include('layouts.Timeline')
-<section class="bg-gray-100 dark:bg-gray-900 lg:py-12 lg:flex lg:justify-center">
+<section class="lg:py-12 lg:flex lg:justify-center">
     <div class="bg-white dark:bg-gray-800 lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg lg:rounded-lg">
         <div class="lg:w-1/2">
-            <div class="h-64 bg-cover lg:rounded-lg lg:h-full" style="background-image:url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')"></div>
+            <div class="h-full bg-cover rounded-l-lg " style="background-image:url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')"></div>
         </div>
 
         <div class="max-w-xl px-6 py-12 lg:max-w-5xl lg:w-1/2">
